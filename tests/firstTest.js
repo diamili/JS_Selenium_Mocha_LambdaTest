@@ -2,6 +2,7 @@ const {Builder, By, Key} = require("selenium-webdriver");
 const assert = require("assert");
 var should = require("chai").should()
 
+//async fn
 async function example(){
 //1 - launch the browser
 let driver = await new Builder().forBrowser("firefox").build();
