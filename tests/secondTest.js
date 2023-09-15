@@ -2,11 +2,11 @@ const { Builder, By, Key } = require("selenium-webdriver");
 var should = require("chai").should()
 
 //describe block
-describe("add todo tests", function () {
+describe("add second todo tests", function () {
 
     //it block
-    it("successfully adds a todo to applicatiom", async function () {
-        this.timeout(15000);
+    it("successfully adds second todo to applicatiom", async function () {
+        this.timeout(15000)
 
             //1 - launch the browser
             let driver = await new Builder().forBrowser("firefox").build();
@@ -28,7 +28,7 @@ describe("add todo tests", function () {
             //4 - close the browser
             await driver.quit();
         
-
+       
     });
 
 });
