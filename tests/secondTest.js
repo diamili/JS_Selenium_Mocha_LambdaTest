@@ -23,7 +23,7 @@ describe("add second todo tests", function () {
             });
 
             //assert using chai should
-            todoText.should.equal("Learn Selenium")// return the error, becouse the strings do not match
+            todoText.should.equal(" Selenium")// return the error, becouse the strings do not match
 
             //4 - close the browser
             await driver.quit();
