@@ -6,7 +6,7 @@ var capabilities = {
     "platformName": "Windows 10",
     "browserName": "Chrome",
     "browserVersion": "92.0",
-    "headless": true
+    "headless": false
 }
 
 module.exports = {
